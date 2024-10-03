@@ -240,10 +240,8 @@
         return;
       }
       
-      // Remove both 'active' and 'active-tag' classes from previous selection
       $(".active-tag").removeClass("active active-tag");
       
-      // Add both 'active' and 'active-tag' classes to the current selection
       $(this).addClass("active active-tag");
     
       var tag = $(this).data("images-toggle");
